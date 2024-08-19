@@ -101,7 +101,7 @@ export const projectsData = [
       "Developed a robust Backend API using Java with the Spring Framework for the SfUIT prototype, a SaaS solution designed for continuous health monitoring of differently-abled individuals.",
     tags: ["Java", "SaaS", "Spring Boot", "PostgreSQL"],
     imageUrl: sfuit,
-    // URL: "https://sfuit-apror.netlify.app/"
+    projectUrl: "https://sfuit-apror.netlify.app/"
   },
   {
     title: "Interview Tracking System",
@@ -109,7 +109,7 @@ export const projectsData = [
       "Developed a RESTful API from scratch for backend operations, drawing inspiration from Superset, to manage CRUD functions such as scheduling appointments, tracking interviewer feedback, and notifying candidates.",
     tags: ["Java", "Spring Boot", "MySQL", "PostgreSQL"],
     imageUrl: its,
-    //URL: "https://github.com/prateek10201/InterviewTrackingSystemBackend"
+    projectUrl: "https://github.com/prateek10201/InterviewTrackingSystemBackend"
   },
   {
     title: "Bounce It",
@@ -117,7 +117,7 @@ export const projectsData = [
       "Built 'BOUNCE IT!,' a cross-platform casual game using HTML, CSS, and JavaScript. Achieved high user acceptance, effectively managing the challenges of creating a graphics-intensive game with dynamic gameplay.",
     tags: ["HTML", "CSS", "Javascript", "CanvasAPI", "jQuery"],
     imageUrl: bounceit,
-    // URL: "https://bounceit.netlify.app/#"
+    projectUrl: "https://bounceit.netlify.app/#"
   },
   {
     title: "Diabetic Retinopathy Screening Using CNN",
@@ -132,7 +132,7 @@ export const projectsData = [
       "Developed an Android application for healthcare professionals to streamline digital prescriptions. Utilized the Google Speech-To-Text API, and delivered prescription to patients as a PDF document. The app aids physicians in archiving past prescriptions, generating new prescriptions.",
     tags: ["Java", "Mobile App Development", "SQL", "Firebase"],
     imageUrl: vp,
-    //URL: "https://github.com/prateek10201/Voice-Prescription_VP"
+    projectUrl: "https://github.com/prateek10201/Voice-Prescription_VP"
   },
 ] as const;
 
