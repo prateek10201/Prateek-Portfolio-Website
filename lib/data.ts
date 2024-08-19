@@ -124,7 +124,8 @@ export const projectsData = [
     description:
       "Curated an exhaustive dataset of Fundus Images related to diabetic patients from the ATMOS dataset on Kaggle. Employed the ResNet-18 architecture, and achieved an accuracy of 84.3%, highlighting its efficiency in DR Screening. ",
     tags: ["Deep Learning", "CNN", "Python", "Pandas"],
-    imageUrl: drs
+    imageUrl: drs,
+    projectUrl: undefined
   },
   {
     title: "Voice Prescription Mobile Application",
