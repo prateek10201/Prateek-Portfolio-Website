@@ -37,6 +37,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Developer - Part Time, Daedalus Cybernetics",
+    location: "Clemson, SC",
+    description:
+      "Developing a fully responsive company website using JavaScript, HTML, CSS, and Webflow. Collaborated on implementing SEO best practices to boost organic traffic by 15% and optimized the design for seamless experiences across mobile and desktop platforms.",
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2024 - now",
+  },
+  {
     title: "Graduate Teaching Assistant, Clemson University",
     location: "Clemson, SC",
     description:
