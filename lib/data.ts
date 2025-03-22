@@ -4,9 +4,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import sfuit from "@/public/Sfuit_.png";
 import bounceit from "@/public/bounceit_homepage.png";
 import its from "@/public/Interview Tracking System.png";
-import drs from "@/public/five_images_3.png"
-import vp from "@/public/vp_home.png"
-
+import drs from "@/public/five_images_3.png";
+import vp from "@/public/vp_home.png";
+import cal from "@/public/calendar.png";
 
 export const links = [
   {
@@ -37,20 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer - Part Time, Daedalus Cybernetics",
-    location: "Clemson, SC",
-    description:
-      "Developing a fully responsive company website using JavaScript, HTML, CSS, and Webflow. Collaborated on implementing SEO best practices to boost organic traffic by 15% and optimized the design for seamless experiences across mobile and desktop platforms.",
-    icon: React.createElement(CgWorkAlt),
-    date: "October 2024 - now",
-  },
-  {
     title: "Graduate Teaching Assistant, Clemson University",
     location: "Clemson, SC",
     description:
       "Instructing students in the 'Software Development Foundations' course under the mentorship of Prof. Mathew Joseph Re.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2024 - now",
+  },
+  {
+    title: "Software Developer - Part Time, Daedalus Cybernetics",
+    location: "Clemson, SC",
+    description:
+      "Developing a fully responsive company website using JavaScript, HTML, CSS, and Webflow. Collaborated on implementing SEO best practices to boost organic traffic by 15% and optimized the design for seamless experiences across mobile and desktop platforms.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2024 - Dec 2024",
   },
   {
     title: "Graduate Teaching Assistant, Clemson University",
@@ -109,7 +109,7 @@ export const projectsData = [
       "Developed a robust Backend API using Java with the Spring Framework for the SfUIT prototype, a SaaS solution designed for continuous health monitoring of differently-abled individuals.",
     tags: ["Java", "SaaS", "Spring Boot", "PostgreSQL"],
     imageUrl: sfuit,
-    projectUrl: "https://sfuit-apror.netlify.app/"
+    projectUrl: "https://sfuit-apror.netlify.app/",
   },
   {
     title: "Interview Tracking System",
@@ -117,7 +117,8 @@ export const projectsData = [
       "Developed a RESTful API from scratch for backend operations, drawing inspiration from Superset, to manage CRUD functions such as scheduling appointments, tracking interviewer feedback, and notifying candidates.",
     tags: ["Java", "Spring Boot", "MySQL", "PostgreSQL"],
     imageUrl: its,
-    projectUrl: "https://github.com/prateek10201/InterviewTrackingSystemBackend"
+    projectUrl:
+      "https://github.com/prateek10201/InterviewTrackingSystemBackend",
   },
   {
     title: "Bounce It",
@@ -125,7 +126,22 @@ export const projectsData = [
       "Built 'BOUNCE IT!,' a cross-platform casual game using HTML, CSS, and JavaScript. Achieved high user acceptance, effectively managing the challenges of creating a graphics-intensive game with dynamic gameplay.",
     tags: ["HTML", "CSS", "Javascript", "CanvasAPI", "jQuery"],
     imageUrl: bounceit,
-    projectUrl: "https://bounceit.netlify.app/#"
+    projectUrl: "https://bounceit.netlify.app/#",
+  },
+  {
+    title: "Scheduler - Calendar Component",
+    description:
+      "Created a responsive calendar scheduling component using Next.js, Supabase, and TailwindCSS, enabling intuitive appointment management and visualization. Implemented the Backend with PostgreSQL via Supabase to handle user authentication, and data persistence.",
+    tags: [
+      "NextJs",
+      "React",
+      "Supabase",
+      "TailwindCSS",
+      "PostgreSQL",
+      "TypeScript",
+    ],
+    imageUrl: cal,
+    projectUrl: "https://calendar-component-test-scheduler.vercel.app/",
   },
   {
     title: "Diabetic Retinopathy Screening Using CNN",
@@ -133,7 +149,8 @@ export const projectsData = [
       "Curated an exhaustive dataset of Fundus Images related to diabetic patients from the ATMOS dataset on Kaggle. Employed the ResNet-18 architecture, and achieved an accuracy of 84.3%, highlighting its efficiency in DR Screening. ",
     tags: ["Deep Learning", "CNN", "Python", "Pandas"],
     imageUrl: drs,
-    projectUrl: "https://github.com/prateek10201/Diabetic-Retinopathy-Screening-Using-CNN"
+    projectUrl:
+      "https://github.com/prateek10201/Diabetic-Retinopathy-Screening-Using-CNN",
   },
   {
     title: "Voice Prescription Mobile Application",
@@ -141,7 +158,7 @@ export const projectsData = [
       "Developed an Android application for healthcare professionals to streamline digital prescriptions. Utilized the Google Speech-To-Text API, and delivered prescription to patients as a PDF document. The app aids physicians in archiving past prescriptions, generating new prescriptions.",
     tags: ["Java", "Mobile App Development", "SQL", "Firebase"],
     imageUrl: vp,
-    projectUrl: "https://github.com/prateek10201/Voice-Prescription_VP"
+    projectUrl: "https://github.com/prateek10201/Voice-Prescription_VP",
   },
 ] as const;
 
@@ -154,6 +171,9 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Javascript",
+  "NextJS",
+  "TailwindCSS",
+  "TypeScript",
   "C#",
   "Git",
   "ASP.Net",
@@ -163,6 +183,8 @@ export const skillsData = [
   "PostgreSQL",
   "MongoDB",
   "BigQuery",
+  "Supabase",
   "Docker",
+  "Vercel",
   "pandas",
 ] as const;
