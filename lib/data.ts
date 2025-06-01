@@ -42,7 +42,7 @@ export const experiencesData = [
     title: "Graduate Teaching Assistant, Clemson University",
     location: "Clemson, SC",
     description:
-      "Instructed students in the 'Software Development Foundations' course under the mentorship of Prof. Mathew Joseph Re. Instructed Students with hands-on session in Java, Object-Oriented Programming Concepts.",
+      "Instructed students in the 'Software Development Foundations' course under the mentorship of Prof. Mathew Joseph Re. Delivered hands-on programming sessions focused on Java and OOP concepts.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2024 - May 2025",
   },
@@ -199,34 +199,48 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  // Programming Languages
   "Java",
   "Python",
-  "AWS",
-  "GCP",
+  "C++",
+  "C#",
+  "TypeScript",
+  "JavaScript",
+
+  // Web Development: Frontend
+  "HTML",
+  "CSS",
+  "TailwindCSS",
+  "React.js",
+  "Next.js",
+
+  // Web Development: Backend
   "Spring Boot",
   "Restful Web Services",
   "Flask",
-  "C++",
-  "HTML",
-  "CSS",
-  "Javascript",
-  "NextJS",
-  "TailwindCSS",
-  "TypeScript",
-  "C#",
-  "Git",
   "ASP.Net",
-  "PySpark",
-  "React.js",
-  "Next.js",
+
+  // Databases
   "MySQL",
   "PostgreSQL",
   "MongoDB",
   "BigQuery",
   "Supabase",
+
+  // Cloud & Deployment
+  "AWS",
+  "GCP",
   "Docker",
   "Vercel",
-  "Supabase",
   "Render",
-  "pandas",
+
+  // Tools
+  "Git",
+  "Pandas",
+  "PySpark",
+  "Postman",
+
+  // Specialized
+  "AI Integration",
+  "LLM",
 ] as const;

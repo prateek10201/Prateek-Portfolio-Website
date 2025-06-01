@@ -22,7 +22,7 @@ export default function About() {
         Graduated with a Master’s in Computer Science from{" "}
         <b>Clemson University</b> and bringing over a year of experience as a
         software developer, I specialize in <b>Java</b>, <b>Python</b>, and{" "}
-        <b>Scripting Technologies</b>. My passion lies in building{" "}
+        <b>Web Technologies</b>. My passion lies in building{" "}
         <b>Full-Stack Applications</b>,{" "}
         <b>Integrating AI with Backend Systems (APIs)</b>, automation tools, and
         data processing solutions. I’ve worked as a Software Developer at{" "}
