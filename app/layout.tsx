@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Prateek Choudavarpu Portfolio",
   description:
-    "Prateek is currently pursuing Masters graduate and has over an year software development experience.",
+    "Prateek is a Computer Science graduate from Clemson University with over a year of software development experience.",
 };
 
 export default function RootLayout({

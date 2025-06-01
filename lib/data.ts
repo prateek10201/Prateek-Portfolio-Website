@@ -7,6 +7,8 @@ import its from "@/public/Interview Tracking System.png";
 import drs from "@/public/five_images_3.png";
 import vp from "@/public/vp_home.png";
 import cal from "@/public/calendar.png";
+import hh from "@/public/humminghire.png";
+import mov from "@/public/Moviematchmaker.png";
 
 export const links = [
   {
@@ -40,15 +42,15 @@ export const experiencesData = [
     title: "Graduate Teaching Assistant, Clemson University",
     location: "Clemson, SC",
     description:
-      "Instructing students in the 'Software Development Foundations' course under the mentorship of Prof. Mathew Joseph Re.",
+      "Instructed students in the 'Software Development Foundations' course under the mentorship of Prof. Mathew Joseph Re. Instructed Students with hands-on session in Java, Object-Oriented Programming Concepts.",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2024 - now",
+    date: "Aug 2024 - May 2025",
   },
   {
     title: "Software Developer - Part Time, Daedalus Cybernetics",
     location: "Clemson, SC",
     description:
-      "Developing a fully responsive company website using JavaScript, HTML, CSS, and Webflow. Collaborated on implementing SEO best practices to boost organic traffic by 15% and optimized the design for seamless experiences across mobile and desktop platforms.",
+      "Developed a fully responsive company website using JavaScript, HTML, CSS, and Webflow. Identified and resolved rendering issues and page loading errors across all web pages, eliminating bugs and delivering a error-free browsing experience.",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2024 - Dec 2024",
   },
@@ -64,9 +66,9 @@ export const experiencesData = [
     title: "Clemson Univerity",
     location: "Clemson, SC",
     description:
-      "Currently pursuing Master's Degree in Computer Science with 4 CGPA.",
+      "Currently pursuing Master's Degree in Computer Science with 4 GPA.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2025",
+    date: "Aug 2023 - May 2025",
   },
   {
     title: "Programmer Analyst Trainee, Cognizant Technology Solutions",
@@ -96,7 +98,7 @@ export const experiencesData = [
     title: "Matrusri Engineering College, Osmania University",
     location: "Hyderabad, India",
     description:
-      "Graduated with an 8.4 GPA in Bachelor of Engineering, Computer Science & Engineering.",
+      "Graduated with an 3.7 GPA in Bachelor of Engineering, Computer Science & Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
@@ -110,6 +112,40 @@ export const projectsData = [
     tags: ["Java", "SaaS", "Spring Boot", "PostgreSQL"],
     imageUrl: sfuit,
     projectUrl: "https://sfuit-apror.netlify.app/",
+  },
+  {
+    title: "Humming Hire - AI Backend API",
+    description:
+      "Built a scalable recruitment platform backend using Java Spring Boot, PostgreSQL, and REST APIs, integrating Spring AI for LLM-based candidate-recruiter matching, reducing matching time.",
+    tags: [
+      "Java",
+      "AI Integration",
+      "Spring AI",
+      "Spring Boot",
+      "Kafka",
+      "Spring Security",
+      "Spring Cloud",
+      "PostgreSQL",
+      "LLM",
+    ],
+    imageUrl: hh,
+    projectUrl: "https://github.com/prateek10201/HummingHire-Backend",
+  },
+  {
+    title: "Movie Matchmaker - AI-Powered Movie Recommendation System",
+    description:
+      "Movie MatchMaker is an AI-powered movie recommendation system that delivers personalized movie suggestions based on user preferences, mood, and viewing history.",
+    tags: [
+      "Python",
+      "Flask",
+      "Content-Based Filtering",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Render",
+    ],
+    imageUrl: mov,
+    projectUrl: "https://movie-matchmaker-recommendation-system.onrender.com/",
   },
   {
     title: "Interview Tracking System",
@@ -166,7 +202,10 @@ export const skillsData = [
   "Java",
   "Python",
   "AWS",
+  "GCP",
   "Spring Boot",
+  "Restful Web Services",
+  "Flask",
   "C++",
   "HTML",
   "CSS",
@@ -178,7 +217,8 @@ export const skillsData = [
   "Git",
   "ASP.Net",
   "PySpark",
-  "React",
+  "React.js",
+  "Next.js",
   "MySQL",
   "PostgreSQL",
   "MongoDB",
@@ -186,5 +226,7 @@ export const skillsData = [
   "Supabase",
   "Docker",
   "Vercel",
+  "Supabase",
+  "Render",
   "pandas",
 ] as const;

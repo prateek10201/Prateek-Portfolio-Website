@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import dp from "@/public/passport_size_photo.jpg"
+import dp from "@/public/passport_size_photo.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -49,9 +49,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Prateek.</span> I'm 
-        pursuing my Master's in Computer Science. I am a Software Developer with proven ability to build scalable{" "}   
-        <span className="underline"> Java, Python and Javascript</span> applications.
+        <span className="font-bold">Hello, I'm Prateek.</span> I'm a Computer
+        Science graduate from Clemson University and a Software Developer with a
+        proven ability to build scalable{" "}
+        <span className="underline"> Java, Python and Javascript</span>{" "}
+        applications.
       </motion.h1>
 
       <motion.div
